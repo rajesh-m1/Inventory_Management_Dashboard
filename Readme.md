@@ -55,6 +55,12 @@ A comprehensive and interactive Excel dashboard built to track stock levels, mon
 - Integrated **Slicers** connected to the data model.
 - Enabled users to dynamically filter the dashboard by **Product Category**, **Warehouse Location**, and **Supplier** for granular analysis.
 
+### Step 6: Protecting the Sheet
+- Unprotected sheet can be easily modified or changed.
+- To overcome this, I unlocked the slicers first then used the review section to protect the whole dashboard sheet.
+- Furthermore hiding all the backend sheets.
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/9ee0c135-3c03-492b-b534-3037e934b87e" />
+
 ## 📊 Key Metrics Tracked
 - Total Inventory Value
 - Inventory Turnover Ratio
