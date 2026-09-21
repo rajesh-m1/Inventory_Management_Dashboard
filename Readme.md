@@ -31,20 +31,29 @@ A comprehensive and interactive Excel dashboard built to track stock levels, mon
 - Inventory Turnover Ratio=[@[Total Units Sold]] / IF([@[Current Stock]]=0, 1,[@[Current Stock]])
 - Margin Check=IF([@[Unit Cost]] > [@[Unit Selling Price]], "LOSS MAKER", "Profitable")
 - Restock Status=IF([@[Current Stock]] <= [@[Reorder Quantity]], "Reorder", "No")
+- Applied **Conditional Formatting** to create visual alerts (e.g., Red for "Stockout/ Reorder", Green for "Profitable", Red for "Loss making skus").
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/16977506-f252-4e47-a13b-fbf7e7bc6bdc" />
 
 
-### Step 3: 
+### Step 3: Reorder Alert List 
+-Developed a dedicated Reorder Alert List
+-Created a highly focused Pivot Table configured to filter and display only SKUs that have triggered a reorder status.
+-This operational list provides the procurement team with immediate access to:
+-Order Quantity
+-Warehouse Location
+-Supplier Name
+-Lead Time Days
+-Product Category
+<img width="1919" height="997" alt="image" src="https://github.com/user-attachments/assets/d90a8546-f4fb-4773-b97b-fac3b42cdd7e" />
 
 ### Step 4: Dashboard Design and Visualization
 - Designed a clean front-end dashboard on a dedicated sheet to summarize the entire inventory ecosystem.
 - Utilized bar charts for warehouse stock comparisons and line charts for historical inventory trends.
-- Applied **Conditional Formatting** to create visual alerts (e.g., Red for "Stockout/Urgent Reorder", Yellow for "Low Stock", Green for "Healthy").
 <img width="1919" height="993" alt="image" src="https://github.com/user-attachments/assets/dafa8247-9a9a-430a-979c-3138820b9e56" />
 
 ### Step 5: Interactivity 
 - Integrated **Slicers** connected to the data model.
-- Enabled users to dynamically filter the dashboard by **Product Category**, **Warehouse Location**, and **Time Period** for granular analysis.
+- Enabled users to dynamically filter the dashboard by **Product Category**, **Warehouse Location**, and **Supplier** for granular analysis.
 
 ## 📊 Key Metrics Tracked
 - Total Inventory Value
